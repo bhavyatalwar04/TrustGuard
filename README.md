@@ -6,6 +6,7 @@
 
 ## 📂 Project Structure
 TruthGuard/
+
 ├── data/ # Raw and processed post data
 
 ├── src/ # Core source code (data collection → processing → verification)
