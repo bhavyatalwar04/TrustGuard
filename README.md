@@ -7,11 +7,17 @@
 ## 📂 Project Structure
 TruthGuard/
 ├── data/ # Raw and processed post data
+
 ├── src/ # Core source code (data collection → processing → verification)
+
 ├── tests/ # Unit and integration tests
+
 ├── scripts/ # Utility scripts for setup/migration
+
 ├── frontend/ # (Optional) React-based frontend dashboard
+
 ├── requirements.txt # Python dependencies
+
 └── README.md # You are here!
 ---
 
