@@ -1,0 +1,35 @@
+# Core Python Libraries
+numpy
+pandas
+scikit-learn
+
+# NLP & Text Processing
+spacy
+nltk
+transformers
+sentence-transformers
+beautifulsoup4
+
+# Web Scraping / APIs
+requests
+
+# MongoDB or DB handling
+pymongo  # If you're using MongoDB
+# cassandra-driver  # Uncomment if using Cassandra
+
+# Logging & Utility
+tqdm
+python-dotenv
+
+# Optional: For semantic similarity / embeddings
+faiss-cpu  # For fast vector search (CPU version)
+
+# Optional: For fast processing and dashboarding
+fastapi
+uvicorn
+
+# Optional: If you plan to use HuggingFace models from hub
+huggingface-hub
+
+# Testing
+pytest
