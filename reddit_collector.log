@@ -1,0 +1,34 @@
+2025-06-19 16:05:08,179 - INFO - Database setup completed
+2025-06-19 16:05:08,695 - INFO - Connected to Reddit API. Read-only: True
+2025-06-19 16:05:08,695 - INFO - Collecting 20 hot posts from r/news
+2025-06-19 16:05:12,128 - INFO - Collected 20 posts from r/news
+2025-06-19 16:05:12,128 - INFO - Collecting 20 hot posts from r/worldnews
+2025-06-19 16:05:15,361 - INFO - Collected 20 posts from r/worldnews
+2025-06-19 16:05:15,363 - INFO - Collecting 20 hot posts from r/politics
+2025-06-19 16:05:18,589 - INFO - Collected 20 posts from r/politics
+2025-06-19 16:05:18,589 - INFO - Collecting 20 hot posts from r/conspiracy
+2025-06-19 16:05:21,856 - INFO - Collected 20 posts from r/conspiracy
+2025-06-19 16:05:21,857 - INFO - Collecting 20 hot posts from r/AskReddit
+2025-06-19 16:05:24,912 - INFO - Collected 20 posts from r/AskReddit
+2025-06-19 16:05:24,912 - INFO - Collecting 20 hot posts from r/india
+2025-06-19 16:05:28,154 - INFO - Collected 20 posts from r/india
+2025-06-19 16:05:28,154 - INFO - Collecting 20 hot posts from r/Indianews
+2025-06-19 16:05:31,473 - INFO - Collected 20 posts from r/Indianews
+2025-06-19 16:05:31,473 - INFO - Collecting 20 hot posts from r/InPolitics
+2025-06-19 16:05:32,087 - ERROR - Error collecting from r/InPolitics: received 404 HTTP response
+2025-06-19 16:05:32,087 - INFO - Collecting 20 hot posts from r/IndianEntertainment
+2025-06-19 16:05:32,711 - INFO - Collected 1 posts from r/IndianEntertainment
+2025-06-19 16:05:32,711 - INFO - Collecting 20 hot posts from r/IndiaSpeaks
+2025-06-19 16:05:37,237 - INFO - Collected 20 posts from r/IndiaSpeaks
+2025-06-19 16:05:37,237 - INFO - Collecting 20 hot posts from r/desi
+2025-06-19 16:05:37,707 - ERROR - Error collecting from r/desi: received 404 HTTP response
+2025-06-19 16:05:37,711 - INFO - Collecting 20 hot posts from r/BollywoodGossip
+2025-06-19 16:05:38,142 - ERROR - Error collecting from r/BollywoodGossip: received 404 HTTP response
+2025-06-19 16:05:38,142 - INFO - Collecting 20 hot posts from r/BollywoodRealism
+2025-06-19 16:05:41,578 - INFO - Collected 20 posts from r/BollywoodRealism
+2025-06-19 16:05:44,230 - INFO - Found 30 posts for query: 'fake news'
+2025-06-19 16:05:46,396 - INFO - Found 30 posts for query: 'misinformation'
+2025-06-19 16:05:48,430 - INFO - Found 30 posts for query: 'fact check'
+2025-06-19 16:05:51,041 - INFO - Found 30 posts for query: 'debunked'
+2025-06-19 16:05:51,077 - INFO - Data exported to TruthGuard\data\raw_posts\posts_reddit_data_20250619_160551.csv
+2025-06-19 16:05:51,081 - INFO - Reddit collector closed
