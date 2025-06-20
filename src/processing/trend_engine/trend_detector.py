@@ -436,8 +436,6 @@ def print_analysis_results(results: Dict):
     if 'output_file' in results:
         print(f"📁 Enhanced data saved to: {results['output_file']}")
 
-
-# --- Example Usage ---
 if __name__ == "__main__":
     # Initialize trend detection engine
     trend_detector = TrendDetectionEngine(data_dir="data/processed_data")

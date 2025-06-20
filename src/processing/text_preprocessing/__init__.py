@@ -1,35 +1,24 @@
 """
-Text Preprocessing Module for TruthGuard
+Text Preprocessing Module
 
-This module provides comprehensive text preprocessing capabilities including:
-- Text cleaning and normalization
-- Named Entity Recognition (NER)
-- Part-of-Speech (POS) tagging
-- Linguistic feature extraction
-- Batch processing for large datasets
-- Automatic latest file detection
-
-Classes:
-    TextPreprocessor: Main preprocessing class with spaCy integration
-    
-Functions:
-    process_reddit_posts: Process Reddit CSV files with automatic latest file detection
-    setup_logging: Configure logging for the preprocessing pipeline
-    get_latest_raw_data_file: Automatically find the most recent raw data file
+This module handles preprocessing of raw Reddit data before claim extraction.
+Includes:
+- Logging setup
+- Raw file discovery
+- TextPreprocessor class for cleaning and structuring text
+- process_reddit_posts(): Runs the full preprocessing pipeline
 """
 
 from .text_preprocessing_pipeline import (
-    TextPreprocessor,
-    process_reddit_posts,
     setup_logging,
-    get_latest_raw_data_file
+    get_latest_raw_data_file,
+    TextPreprocessor,
+    process_reddit_posts
 )
 
 __all__ = [
-    'TextPreprocessor',
-    'process_reddit_posts',
-    'setup_logging',
-    'get_latest_raw_data_file'
+    "setup_logging",
+    "get_latest_raw_data_file",
+    "TextPreprocessor",
+    "process_reddit_posts"
 ]
-
-__version__ = "1.0.0"
