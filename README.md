@@ -6,20 +6,76 @@
 
 ## 📂 Project Structure
 TruthGuard/
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── config.py
+│   │   ├── database.py
+│   │   ├── models/
+│   │   │   ├── __init__.py
+│   │   │   ├── claim.py
+│   │   │   ├── verification.py
+│   │   │   └── user.py
+│   │   ├── services/
+│   │   │   ├── __init__.py
+│   │   │   ├── claim_extractor.py
+│   │   │   ├── fact_checker.py
+│   │   │   ├── knowledge_graph.py
+│   │   │   ├── semantic_matcher.py
+│   │   │   ├── trend_detector.py
+│   │   │   └── alert_system.py
+│   │   ├── api/
+│   │   │   ├── __init__.py
+│   │   │   ├── routes.py
+│   │   │   └── schemas.py
+│   │   └── utils/
+│   │       ├── __init__.py
+│   │       ├── text_processing.py
+│   │       └── helpers.py
+│   ├── tests/
+│   │   ├── __init__.py
+│   │   ├── test_claim_extractor.py
+│   │   ├── test_fact_checker.py
+│   │   └── test_api.py
+│   ├── scripts/
+│   │   ├── setup_db.py
+│   │   └── migrate.py
+│   ├── data/
+│   │   ├── raw/
+│   │   ├── processed/
+│   │   └── models/
+│   ├── requirements.txt
+│   ├── Dockerfile
+│   └── .env.example
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   ├── favicon.ico
+│   │   └── manifest.json
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Dashboard.js
+│   │   │   ├── ClaimChecker.js
+│   │   │   ├── TrendAnalysis.js
+│   │   │   ├── ReportViewer.js
+│   │   │   └── AlertPanel.js
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   ├── utils/
+│   │   │   └── helpers.js
+│   │   ├── styles/
+│   │   │   └── App.css
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── App.css
+│   ├── package.json
+│   └── Dockerfile
+├── docker-compose.yml
+├── README.md
+├── LICENSE
+└── .gitignore
 
-├── data/ # Raw and processed post data
-
-├── src/ # Core source code (data collection → processing → verification)
-
-├── tests/ # Unit and integration tests
-
-├── scripts/ # Utility scripts for setup/migration
-
-├── frontend/ # (Optional) React-based frontend dashboard
-
-├── requirements.txt # Python dependencies
-
-└── README.md # You are here!
 ---
 
 ## 🚀 Features
